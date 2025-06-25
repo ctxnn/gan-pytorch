@@ -60,3 +60,9 @@ loss curve:
 
 ![alt text](img/image2.png)
 
+okay finally i switched from DCGAN to GAN: 
+
+it worked(a lil bit):
+
+![alt text](img/image4.png)
+
