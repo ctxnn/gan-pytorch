@@ -22,24 +22,19 @@ $$
 ***component Losses***:
 
 **discriminator Loss** (to *maximize*):
-$$
-L_D = -\left( E_{x \sim p_{\text{data}}}[\log D(x)] + E_{z \sim p_z}[\log(1 - D(G(z)))] \right)
-$$
+$$L_D = -\left( E_{x \sim p_{\text{data}}}[\log D(x)] + E_{z \sim p_z}[\log(1 - D(G(z)))] \right)$$
 
 **generator loss** (original, to *minimize*):
-$$
-L_G^{\text{original}} = E_{z \sim p_z}[\log(1 - D(G(z)))]
-$$
+$$L_G^{\text{original}} = E_{z \sim p_z}[\log(1 - D(G(z)))]$$
 
 **generator loss** (non-saturating, improved):
-$$L_G^{\text{non-sat}} = -E_{z \sim p_z}[\log D(G(z))]
-$$
+$$L_G^{\text{non-sat}} = -E_{z \sim p_z}[\log D(G(z))]$$
 
 because changing symbols will not work good 
 
 notations:
 - $p_{\text{data}}(x)$: Real data distribution  
-- $p_z(z)$: Noise prior (e.g., $\mathcal{N}(0,1)$)  
+- $p_z(z)$: Noise prior (e.g., $N(0,1)$)  
 - $G(z)$: Generator output (fake sample)  
 - $D(x)$: Discriminator's probability that $x$ is real  
 
