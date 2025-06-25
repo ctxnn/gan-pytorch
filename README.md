@@ -50,7 +50,8 @@ notations:
 #### results 
 
 GAN training is difficult, reaching nash equilibrium is very difficult, so it takes lots of experiments 
-
+for comparision thiese are the original images: 
+![alt text](img/image3.png)
 when i first did it these were the generations: 
 
 ![alt text](img/image.png)
@@ -58,3 +59,4 @@ when i first did it these were the generations:
 loss curve: 
 
 ![alt text](img/image2.png)
+
