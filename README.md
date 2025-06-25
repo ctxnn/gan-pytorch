@@ -66,3 +66,8 @@ it worked(a lil bit):
 
 ![alt text](img/image4.png)
 
+**to do**: 
+- [ ] implement celebai dataset
+- [ ] make someone smile using the vector mathematics(celeba dataset)
+
+
